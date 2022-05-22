@@ -1,0 +1,16 @@
+{
+  "name": "cartao-de-visitas",
+  "version": "1.0.0",
+  "description": "Cartao de Visitas de Felipe André",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "card",
+    "node"
+  ],
+  "author": "Felipe André",
+  "license": "ISC"
+}
