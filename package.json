@@ -3,7 +3,6 @@
   "version": "1.0.0",
   "description": "Cartao de Visitas de Felipe André",
   "main": "index.js",
-  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -12,5 +11,8 @@
     "node"
   ],
   "author": "Felipe André",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "ph7biolinks": "^1.1.0"
+  }
 }
