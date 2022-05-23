@@ -2,17 +2,24 @@
   "name": "cartao-de-visitas",
   "version": "1.0.0",
   "description": "Cartao de Visitas de Felipe André",
-  "main": "index.js",
+  "main": "./bin/biolinks.js",
+  "bin": {
+    "felipeandre": "./bin/biolinks.js"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node ./bin/biolinks.js",
+    "type": "module"
   },
   "keywords": [
     "card",
-    "node"
+    "node",
+    "bio links",
+    "business card"
   ],
   "author": "Felipe André",
   "license": "ISC",
   "dependencies": {
-    "ph7biolinks": "^1.1.0"
+    "boxen": "^5.1.2",
+    "chalk": "^4.1.2"
   }
 }
